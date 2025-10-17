@@ -1,0 +1,45 @@
+.PostList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style-type: none;
+    margin: 16px auto;
+    max-width: 1024px;
+}
+
+.PostListItem {
+    padding: 16px;
+    max-width: 420px;
+    color: var(--text-secondary);
+    box-shadow: 0 1px 3px var(--shadow);
+    border-radius: 4px;
+}
+
+.PostPicture {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.PostTitle {
+    margin: 0;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.PostListItem:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .PostList {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PostListItem {
+        max-width: 100%;
+    }
+}
