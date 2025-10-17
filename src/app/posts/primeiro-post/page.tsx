@@ -17,7 +17,7 @@ export default function ComandosGitPage() {
               <li><strong>git init</strong>: Inicializa um novo repositório Git.</li>
               <li><strong>git clone [url]</strong>: Clona um repositório existente.</li>
               <li><strong>git add [arquivo]</strong>: Adiciona arquivos ao estágio para commit.</li>
-              <li><strong>git commit -m "mensagem"</strong>: Cria um commit com uma mensagem descritiva.</li>
+              <li><strong>git commit -m &quot;mensagem&quot;</strong>: Cria um commit com uma mensagem descritiva.</li>
               <li><strong>git push</strong>: Envia as alterações locais para o repositório remoto.</li>
               <li><strong>git pull</strong>: Puxa as últimas alterações do repositório remoto.</li>
             </ul>

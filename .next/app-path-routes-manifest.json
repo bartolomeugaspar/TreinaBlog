@@ -1,0 +1,8 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/posts/primeiro-post/page": "/posts/primeiro-post",
+  "/posts/segundo-post/page": "/posts/segundo-post",
+  "/posts/terceiro-post/page": "/posts/terceiro-post"
+}

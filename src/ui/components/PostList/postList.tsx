@@ -1,5 +1,6 @@
 import { PostInterface as BlogPost } from "@/data/@types/PostInterface";
 import Link from "next/link";
+import Image from "next/image";
 import style from "./PostList.module.css";
 
 export default function PostList({ posts }: { posts: BlogPost[] }) {
@@ -19,7 +20,7 @@ function PostListItem({ post }: { post: BlogPost }) {
     return (
         <li className={style.PostListItem}>
         <Link href={`/posts/${post.slug}`}>
-        <img src={post.pictureUrl} alt={post.title} className={style.PostPicture}/>
+        <Image src={post.pictureUrl} alt={post.title} className={style.PostPicture} width={400} height={300} />
         <h2 className={style.PostTitle}>{post.title}</h2>
         <p>{post.description}</p>
         </Link>
